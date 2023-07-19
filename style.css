@@ -1,0 +1,23 @@
+header h3 {
+    color: white;
+    background-color: green;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+h2 {
+    color: green;
+}
+
+contact {
+    color: yellow;
+    font-size: x-large;
+}
