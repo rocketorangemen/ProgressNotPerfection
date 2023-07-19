@@ -3,30 +3,67 @@ header h3 {
     background-color: green;
     text-align: center;
     font-size: xxx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* Body Below */
 
 body {
     background-color: black;
 }
 
-h1 {
+columns {
+    float:inherit0;
+}
+
+about {
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 40px;
     color: white;
     margin-left: 50px;
-    text-decoration: underline yellow;
+    font-style: italic;
+}
+
+purpose {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+    font-style: italic;
+}
+
+obj {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+    font-style: italic;
 }
 
 h2 {
     color: green;
     text-align: center;
     border-bottom: 1px solid yellow;
-    margin: 10px 250px;
+    margin: 2% 20% 2% 10%;
 }
+
+aside {
+    align-content: flex-end;
+    text-align: right;
+    color: orange;
+    border: 2px solid white;
+    float: right;
+    height: 100px;
+    width: auto;
+}
+
+/* Body2 Below */
 
 body2 {
     color: red;
 }
+
+/* Footer Below */
 
 contact {
     color: yellow;
