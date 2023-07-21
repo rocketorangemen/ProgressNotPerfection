@@ -13,8 +13,15 @@ body {
 }
 
 columns {
+    /* float: left; */
+    width: 100%;
+    height: 4000px;
+    border: 2px solid red ;
+}
+
+information {
+    width: 80%;
     float: left;
-    width: 90%;
 }
 
 about {
@@ -52,9 +59,9 @@ aside {
     text-align: center;
     color: orange;
     border: 2px solid white;
-    /* float: right; */
+    float: right;
     height: 100%;
-    width: 10%;
+    width: 15%;
 }
 
 /* Body2 Below */
@@ -73,4 +80,5 @@ contact {
 footer {
     position: fixed;
     bottom: 1%;
+    width: 100%;
 }
