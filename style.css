@@ -13,7 +13,7 @@ body {
 }
 
 columns {
-    float:inherit0;
+    
 }
 
 about {
@@ -52,7 +52,7 @@ aside {
     text-align: right;
     color: orange;
     border: 2px solid white;
-    float: right;
+    flex: right;
     height: 100px;
     width: auto;
 }
