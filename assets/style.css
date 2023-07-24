@@ -15,7 +15,7 @@ body {
 div {
     width: 100%;
     height: fit-content;
-    border: 2px solid red ;
+    /* border: 2px solid red ; */
 }
 
 information {
@@ -61,6 +61,11 @@ aside {
     float: right;
     height: fit-content;
     width: 15%;
+}
+
+#submit {
+    border: 3px solid red;
+    padding: 2px;
 }
 
 /* Body2 Below */
