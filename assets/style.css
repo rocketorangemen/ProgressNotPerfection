@@ -40,7 +40,7 @@ information {
 
 about {
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     margin-left: 50px;
     font-style: italic;
@@ -52,7 +52,7 @@ about {
 
 purpose {
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 25px;
     color: white;
     margin-left: 50px;
     font-style: italic;
@@ -62,7 +62,7 @@ purpose {
 
 obj {
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 25px;
     color: white;
     margin-left: 50px;
     font-style: italic;
@@ -84,7 +84,7 @@ aside {
     float: right;
     height: fit-content;
     width: 13%;
-    background-color: rgb(42, 1, 246, .3);
+    background-color: rgb(42, 1, 246, .5);
     position: fixed;
     top: 10%;
     right: 0%;
@@ -99,17 +99,29 @@ aside {
 
 body2 {
     color: red;
-    height: 500px;
-    padding: 20px;
+    height: fit-content;
+    padding: 5%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: center;
 }
 
-.image1 {
-    height: 30%;
-    width: 30%;
+.image {
+    height: 45%;
+    width: 45%;
+    /* This below will center images. Stack on top of each other */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    border-radius: 10%;
+}
+
+.subtitle {
+    color: red;
+    font-size: 50px;
+    padding-bottom: 35px;
 }
 
 /* Footer Below */
