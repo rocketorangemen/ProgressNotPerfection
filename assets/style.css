@@ -12,10 +12,11 @@ header h3 {
 
 body {
     /* background-color: lightgrey; */
-    background-image: url(../assets/images/NFL-logo-cover.jpg);
+    background-image: url(../assets/images/greenbaystadium.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* position: fixed; */
 }
 
 div {
@@ -26,14 +27,15 @@ div {
 }
 
 information {
-    width: 80%;
-    float: left;
-    padding-left: 5%;
+    width: 75%;
+    /* float: left; */
+    padding: 4%;
     /* background-color: aliceblue; */
-    padding: auto;
+    /* padding: auto; */
     height: fit-content;
-    width: fit-content;
-    background-color: rgb(42, 1, 246, .3)
+    /* width: fit-content; */
+    background-color: rgba(222, 246, 1, 0.4);
+    margin-left: 1.5%;
 }
 
 about {
@@ -77,11 +79,15 @@ h2 {
 
 aside {
     text-align: center;
-    color: black;
+    color: white;
     border: 10px solid white;
     float: right;
     height: fit-content;
     width: 13%;
+    background-color: rgb(42, 1, 246, .3);
+    position: fixed;
+    top: 10%;
+    right: 0%;
 }
 
 #submit {
