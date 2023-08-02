@@ -21,7 +21,7 @@ body {
     background-size: 110% 100%;
     /* position: fixed; */
     background-attachment: fixed;
-    background-position: right 5px top 0%;
+    background-position: right 0px top 0%;
 }
 
 div {
@@ -88,19 +88,22 @@ h2 {
 aside {
     text-align: center;
     color: white;
-    border: 10px solid white;
+    border: 10px solid black;
     float: right;
     height: fit-content;
     width: 13%;
-    background-color: rgb(42, 1, 246, .5);
+    /* background-color: rgb(42, 1, 246, .5); */
     position: fixed;
     top: 3%;
     right: 0%;
     font-size: 20px;
+    background-image: url(images/nfl-stadiums-grass-or-turf-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #submit {
-    border: 3px solid red;
+    border: 3px solid white;
     padding: 2px;
 }
 
