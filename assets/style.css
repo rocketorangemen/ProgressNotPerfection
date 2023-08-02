@@ -6,6 +6,9 @@ header h3 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: yellow;
+    /* Moves the title against the left side and wraps the text */
+    padding-right: 100%;
+    padding-bottom: 100%;
 }
 
 /* Body Below */
@@ -15,8 +18,10 @@ body {
     background-image: url(../assets/images/greenbaystadium.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 100%;
     /* position: fixed; */
+    background-attachment: fixed;
+    background-position: right 5px top 0%;
 }
 
 div {
@@ -36,6 +41,8 @@ information {
     /* width: fit-content; */
     background-color: rgba(222, 246, 1, 0.4);
     margin-left: 1.5%;
+    /* text-align: center; */
+    border-radius: 20%;
 }
 
 about {
@@ -74,7 +81,8 @@ h2 {
     color: green;
     text-align: center;
     border-bottom: 1px solid yellow;
-    margin: 2% 20% 2% 10%;
+    margin: 2% 12% 2% 10%;
+    padding-left: 10%;
 }
 
 aside {
@@ -86,8 +94,9 @@ aside {
     width: 13%;
     background-color: rgb(42, 1, 246, .5);
     position: fixed;
-    top: 10%;
+    top: 3%;
     right: 0%;
+    font-size: 20px;
 }
 
 #submit {
@@ -102,7 +111,7 @@ body2 {
     height: fit-content;
     padding: 5%;
     display: block;
-    margin-left: auto;
+    margin-left: 15%;
     margin-right: auto;
     width: 50%;
     text-align: center;
@@ -119,7 +128,7 @@ body2 {
 }
 
 .subtitle {
-    color: red;
+    color: yellow;
     font-size: 50px;
     padding-bottom: 35px;
 }
