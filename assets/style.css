@@ -8,7 +8,7 @@ header h3 {
     -webkit-text-stroke-color: yellow;
     /* Moves the title against the left side and wraps the text */
     padding-right: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 45%;
 }
 
 /* Body Below */
@@ -39,10 +39,10 @@ information {
     /* padding: auto; */
     height: fit-content;
     /* width: fit-content; */
-    background-color: rgba(222, 246, 1, 0.4);
+    background-color: rgba(222, 246, 1, 0.7);
     margin-left: 1.5%;
     /* text-align: center; */
-    border-radius: 20%;
+    border-radius: 5%;
 }
 
 about {
@@ -94,7 +94,8 @@ aside {
     width: 13%;
     /* background-color: rgb(42, 1, 246, .5); */
     position: fixed;
-    top: 3%;
+    top: 7%;
+    /* bottom: 3%; */
     right: 0%;
     font-size: 20px;
     background-image: url(images/nfl-stadiums-grass-or-turf-scaled.jpg);
