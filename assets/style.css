@@ -93,8 +93,10 @@ aside {
     height: fit-content;
     width: 13%;
     /* background-color: rgb(42, 1, 246, .5); */
-    position: fixed;
-    top: 7%;
+    /* position: fixed; */
+    /* Original size before javascript additions */
+    /* top: 7%; */
+    top: .3%;
     /* bottom: 3%; */
     right: 0%;
     font-size: 20px;
