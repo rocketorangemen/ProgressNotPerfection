@@ -95,9 +95,7 @@ aside {
     /* background-color: rgb(42, 1, 246, .5); */
     position: fixed;
     /* Original size before javascript additions */
-    top: 7%;
-    /* top: .3%; */
-    bottom: 3%;
+    top: 10%;
     right: 0%;
     font-size: 20px;
     background-image: url(images/nfl-stadiums-grass-or-turf-scaled.jpg);
