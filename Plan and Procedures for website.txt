@@ -1,6 +1,6 @@
 Plan and Procedures for website
 
-1. Allow user input
+1. Allow user input (create variables)
 2. Collect name of team from user input on submit click
 3. Display name of team in console
 4. Change background of website according to team selected
