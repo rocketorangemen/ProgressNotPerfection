@@ -9,3 +9,5 @@ var userinput = selectedteam.value;
 console.log(favteam);
 // console.log(selectedteam);
 // console.log(userinput);
+
+// defaultvalue is the property withing the array holding the team names
