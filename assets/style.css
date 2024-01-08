@@ -90,17 +90,18 @@ aside {
     color: white;
     border: 10px solid orange;
     float: right;
-    height: fit-content;
-    width: 13%;
+    height: 100vh;
+    width: 14%;
     /* background-color: rgb(42, 1, 246, .5); */
     position: fixed;
     /* Original size before javascript additions */
-    top: 5%;
+    top: 2%;
     right: 0%;
     font-size: 20px;
     background-image: url(images/nfl-stadiums-grass-or-turf-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: auto;
 }
 
 #submit {
