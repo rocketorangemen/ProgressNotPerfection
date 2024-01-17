@@ -1,12 +1,22 @@
 const btn = document.getElementById('#submit');
-const radioButtons = document.querySelectorAll('input[name="favorite-team"]');
-btn.addEventListener("click",  ()  =>  {
-    let selectedTeam;
-    for (const radioButton of radioButtons) {
-        if (radioButton.checked) {
-            selectedTeam = radioButton.value;
-            break;
-        }
+const radioButtons = document.getElementsByName('favorite-team');
+
+for (var i = 0, length = radioButtons.length; i < length; i++) {
+    if(radioButtons[i].checked) {
+        alert(radioButtons[i].value);
+        break;
     }
-    console.log(selectedTeam);
-})
+};
+
+
+// Submit button registry
+// btn.addEventListener("click",  ()  =>  {
+//     let selectedTeam;
+//     for (const radioButton of radioButtons) {
+//         if (radioButton.checked) {
+//             selectedTeam = radioButton.value;
+//             break;
+//         }
+//     }
+//     console.log(selectedTeam);
+// })
