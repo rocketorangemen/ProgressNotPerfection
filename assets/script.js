@@ -14,12 +14,12 @@ for (var i = 0, length = radioButtons.length; i < length; i++) {
 
 // console.log(selectedTeam);
 
-function jets(selectedTeam) {
-    if(selectedTeam.value = jets) {
-        console.log("green");
-        return;
-    }
-};
+// function jets(selectedTeam) {
+//     if(selectedTeam.value = jets) {
+//         console.log("green");
+//         return;
+//     }
+// };
 
 
 
