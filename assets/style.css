@@ -109,6 +109,11 @@ aside {
     padding: 2px;
 }
 
+#submit:hover {
+    background-color: black;
+    color: white;
+}
+
 /* Body2 Below */
 
 body2 {
